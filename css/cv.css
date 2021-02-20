@@ -9,6 +9,13 @@ body { padding-top: 50px; }
 #moncv {
     font-family: 'Lato', sans-serif;
 }
+.libelle ul {
+    list-style-type: square;
+    margin-top: 18px;
+}
+.libelle ul li {
+    padding: 3px 0;
+}
 #competences .container {
  display: flex; flex-direction: row; justify-content: space-between; }
 #competences .container .libelle, #competences2 .container .libelle { font-size: 1.3em; }
