@@ -16,10 +16,11 @@ and open the template in the editor.
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" />
         <title>Portfolio d'Angelo Tremoureux (BTS SIO 2021) - Page CV</title>
         <link href="../css/cv.css" rel="stylesheet" type="text/css"/>
-        
+
     </head>
     <body>
         <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
@@ -34,11 +35,10 @@ and open the template in the editor.
                             <a href="../index.html" class="nav-link">
                                 <span class="fa fa-home"></span> Accueil
                             </a>
-                            <li class="active nav-item">
-                                <a href="" class="nav-link">
-                                    <span class="fa fa-id-badge"></span> CV
-                                </a>
-                            </li>
+                        <li class="active nav-item">
+                            <a href="" class="nav-link">
+                                <span class="fa fa-id-badge"></span> CV
+                            </a>
                         </li>
                         <li class="dropdown nav-item">
                             <a href="#" class="dropdown-toggle nav-link"
@@ -131,17 +131,155 @@ and open the template in the editor.
             </div>
             <!-- Navbar content -->
         </nav>
-        
-        
-        
+
+
+
         <div class="jumbotron">
-            <div>
-                
-                <a href="../images/moncv.pdf" target="_blank"><img id="moncv" src="../images/moncv.jpg" alt=""/></a>
+            <div id="moncv">
+                <div class="row cadreCV">
+                    <div id="cv-entete" class="text-center">
+                        <div id="cv-photo">
+                            <img src="../images/image2.png" alt=""/>
+                        </div>
+                        <div id="cv-intro">
+                            <h1>Bonjour, je m'appelle Angelo Tremoureux et voici mon CV</h1>
+                        </div>
+                        <p id="intro">J’ai 18 ans et je suis actuellement étudiant en <b>BTS SIO</b> (Services Informatiques aux
+                            Organisations). Passionné par
+                            l’informatique en général et plus particulièrement dans le domaine du
+                            <b>développement (logiciel ou web)</b>, je suis <b>curieux</b>, <b>motivé</b> et <b>persévérant</b> dans ce
+                            que j’entreprends.</p>
+                    </div>
+                </div>
+                <div class="row cadreCV">
+                    <div class="col-xs-12 col-sm-7">
+                        <div class="rubrique clearfix">
+                            <h2><span class="fa fa-graduation-cap"></span> Parcours scolaire</h2>
+                            <ul id="parcours" class="clearfix">
+                                <li>
+                                    <div class="date float-left">
+                                        <span class="fa fa-stop-circle"></span>&nbsp;2021
+                                    </div>
+                                    <div class="details float-right">
+                                        <h3>BTS SIO option SLAM (en cours...)</h3>
+                                        <p>Brevet de Technicien Supérieur "Services Informatiques aux
+                                            Organisations", option "Solutions Logicielles et Applications
+                                            Métiers" au lycée Bonaparte</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="date float-left">
+                                        <span class="fa fa-stop-circle"></span>&nbsp;2019
+                                    </div>
+                                    <div class="details float-right">
+                                        <h3>Bac STI2D spécialité SIN (mention assez-bien)</h3>
+                                        <p>Baccalauréat "Sciences et Technologies de l'Industrie et du
+                                            Développement Durable" spécialité "Systèmes d’Information et
+                                            Numérique" au lycée Rouvière</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="date float-left">
+                                        <span class="fa fa-stop-circle"></span>&nbsp;2016
+                                    </div>
+                                    <div class="details float-right">
+                                        <h3>Diplôme Nationale du Brevet</h3>
+                                        <p></p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="col-xs-12 col-sm-5">
+                        <div class="rubrique clearfix">
+                            <h2><span class="fa fa-user"></span> Me contacter</h2>
+                            <div class="meContacter">
+                                <div class="details float-left">
+                                    <a href="mailto:angelotremoureux.f2f@gmail.com"
+                                       title="Mail d'Angelo Tremoureux">
+                                        <img class="contact-icon" src="../images/cv/mail-dreamstale47.png"
+                                             alt="Icone de mail"> Mail
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="meContacter">
+                                <div class="details float-left">
+                                    <a href="http://fr.linkedin.com/in/angelotremoureux"
+                                       title="Lien vers le profil LinkedIn d'Angelo Tremoureux">
+                                        <img class="contact-icon" src="../images/cv/linkedin-dreamstale45.png"
+                                             alt="Icone de LinkedIn"> LinkedIn
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="meContacter">
+                                <div class="details float-left">
+                                    <a href="https://github.com/AngeloTremoureux/"
+                                       title="Lien vers le profil GitHub d'Angelo Tremoureux">
+                                        <img class="contact-icon" src="../images/cv/github2-dreamstale35.png"
+                                             alt="Icone de GitHub"> GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xs-12 col-sm-7">
+                        <div id="competences" class="rubrique clearfix">
+                            <h2><span class="fa fa-wrench"></span> Compétences techniques</h2>
+                            <div class="container">
+                                <div class="libelle"><i class="fab fa-html5"></i>HTML / <i class="fab fa-css3-alt"></i> CSS / <i class="fab fa-js-square"></i> JavaScript</div>
+                                <div class="classement classement5"></div>
+                            </div>
+                            <div class="container">
+                                <div class="libelle"><i class="fab fa-php"></i> PHP</div>
+                                <div class="classement classement4"></div>
+                            </div>
+                            <div class="container">
+                                <div class="libelle"><i class="fab fa-java"></i> Java</div>
+                                <div class="classement classement3"></div>
+                            </div>
+                            <div class="container">
+                                <div class="libelle"><img src="../images/csharp.png" alt=""/>C# (Framework .NET)</div>
+                                <div class="classement classement3"></div>
+                            </div>
+                            <div class="container">
+                                <div class="libelle">SQL</div>
+                                <div class="classement classement3"></div>
+                            </div>
+                            <div class="container">
+                                <div class="libelle">Python</div>
+                                <div class="classement classement3"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-5">
+                        <div id="competences2" class="rubrique clearfix">
+                            <h2><span class="fa fa-wrench"></span> Compétences généales</h2>
+                            <div class="container">
+                                <div class="libelle">Autonome</div>
+                            </div>
+                            <div class="container">
+                                <div class="libelle">Curieux</div>
+                            </div>
+                            <div class="container">
+                                <div class="libelle">Rigoureux</div>
+                            </div>
+                            <div class="container">
+                                <div class="libelle">Ponctuel</div>
+                            </div>
+                            <div class="container">
+                                <div class="libelle">Esprit d'équipe</div>
+                            </div>
+                        </div>
+                            
+                    </div>
+                </div>
+
+
             </div>
-            
         </div>
-        
+
         <footer>
             <div class="container">
                 <div class="row">
