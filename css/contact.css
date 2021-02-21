@@ -1,0 +1,20 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21 févr. 2021, 10:21:40
+    Author     : angel
+*/
+
+.jumbotron form {
+    width: 50%;
+}
+.details {
+    margin: 20px;
+}
+.contact-icon {
+    margin-right: 10px;
+}
+
