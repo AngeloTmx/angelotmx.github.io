@@ -3,4 +3,7 @@
 @media (min-width: 768px) {
     .bd-placeholder-img-lg { font-size: 3.5rem; }
 }
+img.card-img-top {
+    max-height: 300px;
+}
 .jumbotron { margin-bottom: 0px; } 

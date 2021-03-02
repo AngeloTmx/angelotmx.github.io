@@ -7,6 +7,13 @@ body { padding-top: 50px; }
     font-size: 20px;
 
 }
+.rubrique div img {
+    transition-duration: .3s;
+}
+.rubrique div img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
 #moncv {
     -webkit-animation: slide-fwd-bottom 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: slide-fwd-bottom 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;

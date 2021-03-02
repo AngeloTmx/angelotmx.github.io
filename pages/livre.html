@@ -1,12 +1,16 @@
-<!doctype html>
-<html lang="fr">
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
     <head>
-        <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Portfolio d'Angelo Tremoureux - BTS SIO SLAM">
         <meta name="author" content="Angelo Tremoureux">
-        <link rel="icon" href="images/favicon.ico">
+        <link rel="icon" href="../images/favicon.ico">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -14,6 +18,7 @@
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
         <title>Portfolio d'Angelo Tremoureux (BTS SIO 2021)</title>
         <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/realisations.css" rel="stylesheet"> 
     </head>
     <body>
         <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
@@ -21,44 +26,34 @@
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar">
                     <span class="sr-only">Navigation raccourcie</span>☰
                 </button>
-                <a class="navbar-brand" href="#">Mon portfolio</a>
+                <a class="navbar-brand" href="../index.html">Mon portfolio</a>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active nav-item">
-                            <a href="index.html" class="nav-link">
+                        <li class="nav-item">
+                            <a href="../index.html" class="nav-link">
                                 <span class="fa fa-home"></span> Accueil
                             </a>
                         <li class="nav-item">
-                            <a href="pages/cv.html" class="nav-link">
+                            <a href="cv.html" class="nav-link">
                                 <span class="fa fa-id-badge"></span> CV
                             </a>
                         </li>
-                        </li>
-                        <li class="dropdown nav-item">
+                        <li class="active dropdown nav-item">
                             <a href="#" class="dropdown-toggle nav-link"
                                data-toggle="dropdown" role="button">
                                 <span class="fa fa-list-alt"></span> Réalisations <span class="caret"></span>
                             </a> 
                             <ul class="dropdown-menu" role="menu">
                                 <li role="presentation" class="dropdown-header dropdown-item">
-                                    En autonomie</li>
+                                    Projets terminés</li>
                                 <li role="presentation" class="dropdown-item">
-                                    <a role="menuitem" href="pages/puissance4.html">Puissance 4</a>
-                                </li>
-                                <li role="presentation" class="dropdown-item">
-                                    <a role="menuitem" href="pages/livre.html">Livre numérique</a>
-                                </li>
-                                <li role="presentation" class="dropdown-item">
-                                    <a role="menuitem" href="#">Études et analyses</a>
+                                    <a role="menuitem" href="#">Livre numérique</a>
                                 </li>
                                 <li role="presentation" class="dropdown-divider"></li>
                                 <li role="presentation" class="dropdown-header dropdown-item">
-                                    En entreprise</li>
+                                    Projets en cours</li>
                                 <li role="presentation" class="dropdown-item">
-                                    <a role="menuitem" href="#">Projet de 1ère année</a>
-                                </li>
-                                <li role="presentation" class="dropdown-item">
-                                    <a role="menuitem" href="#">Projet de 2ème année</a>
+                                    <a role="menuitem" href="puissance4.html">Puissance 4</a>
                                 </li>
                             </ul>
                         </li> 
@@ -116,7 +111,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/contact.html" class="nav-link"><span class="fa fa-envelope"></span>
+                            <a href="contact.html" class="nav-link"><span class="fa fa-envelope"></span>
                                 Me contacter
                             </a>
                         </li
@@ -125,86 +120,54 @@
             </div>
             <!-- Navbar content -->
         </nav>
-        <br/><br/>
 
-
-
-        <div class="jumbotron">
-            <h1>Bonjour et bienvenue sur mon portfolio !</h1>
-            <img id="photo" src="images/AngeloTremoureux.jpg" alt="Photo"/>
-            <p id="info">
-                Je m'appelle Angelo Tremoureux, j'ai 18 ans et ce site a pour vocation de me présenter en tant que personne, en tant qu'étudiant
-                et candidat à l'obtention de BTS SIO (Services Informatiques aux Organisations) et en tant
-                que futur professionnel de l'informatique.
-            </p>
-            <br/>
-            <br/>
-            <br/>
-            <p>
-                <a class="btn btn-primary" href="https://github.com/AngeloTremoureux/angelotremoureux.github.io" target="_blank" role="button">Mon GitHub »</a>
-            </p>
-
-        </div> <!-- Emplacement pour le contenu principal de la page -->
-        <footer>
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1 class="jumbotron-heading">Livre numérique</h1>
+                <p class="lead text-muted">Projet de livre numérique en ligne réalisé en projet d'année scolaire de première (2018-2019). 
+                    J'ai alors pu écrire (en binôme) le code principal du livre qui m'a fait découvrir les principaux langages web.
+                </p>
+            </div>
+        </section>
+        <div class="album py-5 bg-light">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4">
-                        <h2>Scolarité</h2>
-                        <p>J'ai commencé la programmation sous python en seconde en choisissant une option informatique. 
-                            Après la réalisation de quelques programmes sous python, j'ai également pu découvrir les langages Web
-                            (HTML, CSS, JS...). Ainsi, j'ai alors fais le choix d'une première dans la spécialité STI2D option SIN "Système d'Information et Numérique"
-                            au lycée Rouvière, où j'ai alors pu découvrir de nouveaux langages et également approfondire mes connaissances
-                            dans le domaine et me passioné pour l'informatique ainsi que le développement.
-                        </p>
-                        <p><a class="btn btn-secondary" href="https://oniseptv.onisep.fr/onv/bac-techno-sti2d-specialite-systeme-dinformation-et-numerique-sin"
-                              target="_blank" role="button">En savoir plus »</a>
-                        </p>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" src="../images/livrenumerique.png" alt="Livre numérique">
+                            <div class="card-body">
+                                <p class="card-text">Livre numérique</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-lg-4">
-                        <h2>Le BTS SIO</h2>
-                        <p>Passionnée d'informatique depuis mon plus jeune âge, j'aime apprendre à faire
-                            de nouvelles choses avec mon ordinateur, mon smartphone ou ma tablette. Une
-                            Geek ? Oui assurément ! Mais j'aimerais maintenant passer au niveau au-dessus
-                            et devenir une vraie Nerd, dans le bon sens du terme ! Après mon bac, le BTS
-                            SIO s'est présenté comme une évidence. Avec 62% d'Informatique "pure", 15%
-                            d'Économie, management et droit de l'informatique, 8% d'Anglais, 8% de culture
-                            générale et 7% de Maths, je savais que cette formation allait me mettre le
-                            pied à l'étrier pour poursuivre ensuite dans cette voie et devenir
-                            informaticienne !
-                        </p>
-                        <p><a class="btn btn-secondary" href="https://fr.wikipedia.org/wiki/Brevet_de_technicien_supérieur_-_Services_informatiques_aux_organisations"
-                              target="_blank" role="button">En savoir plus »</a>
-                        </p>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" src="../images/livrenumerique-code.png"
+                                 alt="Partie du code du livre numérique">
+                            <div class="card-body">
+                                <p class="card-text">Développé principalement en JavaScript</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-lg-4">
-                        <h2>Option B SLAM</h2>
-                        <p>En fin de premier semestre, on doit choisir notre option. "Solutions
-                            Logicielles et Applications Métiers" est l'option qui m'a séduit&nbsp;!
-                            Travailler en équipe à la satisfaction de besoins d'un client, définir des
-                            spécifications, faire des tests, corriger des bugs, faire de la maintenance...
-                            tout en apprenant les bases du métier de développeuse : modélisation des
-                            données avec Merise et UML, programmation objet avec Java, C# et PHP,
-                            conception de bases de données sous Oracle SQL Developer, réalisation de
-                            composants logiciels avec Symfony, gestion de projet et méthodes agiles.
-                        </p>
-                        <p><a class="btn btn-secondary" href="http://www.onisep.fr/Ressources/Univers-Formation/Formations/Post-bac/BTS-Services-informatiques-aux-organisations-option-B-solutions-logicielles-et-applications-metiers"
-                              target="_blank" role="button">En savoir plus »</a>
-                        </p>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" src="../images/livrenum_expo.png" alt="Exposition du livre">
+                            <div class="card-body">
+                                <p class="card-text">Exposition du livre dans un théâtre</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </div>
+
+
+        <footer>
+            <div class="container">
                 <hr>
                 <p class="text-center" id="copyright">© Angelo Tremoureux 2021</p>
             </div>
         </footer>
-        <!-- Optional JavaScript; choose one of the two! -->
-
-        <!-- Option 1: Bootstrap Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-
-        <!-- Option 2: Separate Popper and Bootstrap JS -->
-        <!--
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-        -->
     </body>
+
 </html>
