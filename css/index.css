@@ -4,7 +4,7 @@
     margin-right: 20px;
     border-radius: 10px;
     box-shadow: 2px 2px 4px #001c3b;
-    animation: gen 1s 1;
+    animation: load 1s 1;
 }
 #info {
         font-size: 20px;
