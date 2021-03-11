@@ -7,3 +7,7 @@ img.card-img-top {
     max-height: 300px;
 }
 .jumbotron { margin-bottom: 0px; } 
+
+.badge {
+    color: white;
+}
