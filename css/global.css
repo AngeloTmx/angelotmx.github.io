@@ -1,3 +1,13 @@
 .bg-custom {
     background-color: #1a4d84!important;
 }
+@keyframes load {
+    from {
+        opacity: 0;
+        transform: rotate(-3deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+}
