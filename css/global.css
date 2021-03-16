@@ -11,3 +11,15 @@
         transform: rotate(0deg);
     }
 }
+.jumbotron {
+    background: url('http://wmad.cs.vt.edu/images/code_background.png');
+}
+h1 {
+    color: white;
+}
+#info {
+    color: white;
+}
+.jumbotron .text-muted {
+    color: #ffffff!important;
+}

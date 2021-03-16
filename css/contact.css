@@ -10,3 +10,15 @@
 .slide-tl {
     animation: load 1s 1;
 }
+#content {
+    background: #ffffffa3;
+    padding: 10px;
+    border: 2px white solid;
+    width: 50%;
+    margin: auto;
+    margin-top: 40px; 
+}
+.meContacter a {
+    font-size: 20px;
+    font-weight: bold;
+}
