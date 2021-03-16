@@ -12,7 +12,7 @@
     }
 }
 .jumbotron {
-    background: url('http://wmad.cs.vt.edu/images/code_background.png');
+    background: url('../images/code_background.png');
 }
 h1 {
     color: white;
