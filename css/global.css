@@ -11,8 +11,9 @@
         transform: rotate(0deg);
     }
 }
-.jumbotron {
+html body .jumbotron {
     background: url('../images/code_background.png');
+    background-blend-mode: exclusion;
 }
 h1 {
     color: white;
